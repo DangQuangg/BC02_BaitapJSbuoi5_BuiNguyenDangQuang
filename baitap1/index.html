@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <h1>Điểm Chuẩn: 18 điểm</h1>
+      <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="addon-wrapping">Điểm Toán</span>
+        </div>
+        <input id="toanTxt" type="number" class="form-control" placeholder="Nhập Điểm" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+      <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="addon-wrapping">Điểm Lý</span>
+        </div>
+        <input id="lyTxt" type="number" class="form-control" placeholder="Nhập Điểm" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+      <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="addon-wrapping">Điểm Hóa</span>
+        </div>
+        <input id="hoaTxt" type="number" class="form-control" placeholder="Nhập Điểm" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+      <h1>Điểm ưu tiên</h1>
+      <div>
+      <ul>
+        <h2>Khu vực ưu tiên</h2> 
+        <li>
+          <input type="checkbox" id="A" name="rate"  value="A">
+          <label for="A">Khu vực A</label>       
+        </li>        
+        <li>
+          <input type="checkbox" id="B" name="rate" value="B">
+          <label for="B">Khu vực B</label>
+        </li>        
+        <li>
+          <input type="checkbox" id="C" name="rate" value="C">
+          <label for="C">Khu vực C</label>
+        </li>
+        <li>
+          <input type="checkbox" id="X" name="rate" value="X">
+          <label for="X">X (không thuộc khu vực ưu tiên)</label>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <h2>Đối tượng ưu tiên</h2> 
+        <li>
+          <input type="radio" id="dt1" name="selector" value="dt1">
+          <label for="dt1">Đối tượng 1</label>
+        </li>        
+        <li>
+          <input type="radio" id="dt2" name="selector" value="dt2">
+          <label for="dt2">Đối tượng 2</label>
+        </li>        
+        <li>
+          <input type="radio" id="dt3" name="selector" value="dt3">
+          <label for="dt3">Đối tượng 3</label>
+        </li>
+        <li>
+          <input type="radio" id="dt0" name="selector" value="dt0">
+          <label for="dt0">0 (không thuộc đối tượng ưu tiên)</label>
+        </li>
+      </ul>
+    </div>
+      <button id="tinhDiem" type="button" class="btn btn-secondary">Tính điểm</button>
+      <br>
+      <p id="diemTxt"></p>
+	
+		</ul>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
